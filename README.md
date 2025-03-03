@@ -11,13 +11,13 @@ Follow these steps to set up and run the project on your local machine using VS 
 
 ### Steps
 
-    Clone or Download the Project:
-        If using Git: git clone <repository-url> (replace with your repo URL if hosted).
-        Otherwise, download the project ZIP and extract it.
-    Set Up the Database:
-        Open MySQL (e.g., via terminal with mysql -u root -p or a GUI like MySQL Workbench).
-        Run the following SQL commands to create the database and tables:
-        sql
+Clone or Download the Project:
+    If using Git: git clone <repository-url> (replace with your repo URL if hosted).
+    Otherwise, download the project ZIP and extract it.
+Set Up the Database:
+    Open MySQL (e.g., via terminal with mysql -u root -p or a GUI like MySQL Workbench).
+    Run the following SQL commands to create the database and tables:
+    sql
 
     CREATE DATABASE employee_db;
     USE employee_db;
